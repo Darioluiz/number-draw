@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+}
+
+body,
+button,
+input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+main {
+  margin-top: 19.9rem;
+  width: min(42.8rem, 90%);
+  height: 27.3rem;
+
+  background-color: white;
+  border-radius: 0.6rem;
+
+  margin: auto;
+  margin-top: 19.9rem;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+p {
+  color: #34355b;
+}
+
+main h1 {
+  padding-block: 4.8rem 0.6rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main p {
+  padding-bottom: 4.8rem;
+}
+
+main select,
+button {
+  width: 12.5rem;
+  height: 5.3rem;
+  border: none;
+}
+
+main input {
+  width: 4.5rem;
+  height: 5.3rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+  background-color: #dce2e9;
+  border: none;
+  padding: 0.5rem;
+}
+
+main button {
+  border-radius: 0 0.4rem 0.4rem 0;
+  background: #7879f1;
+  color: white;
+  font-weight: 700;
+  margin-left: -0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.screen2 h1 {
+  margin-bottom: 5rem;
+}
+
+.screen2 button {
+  border-radius: 0.4rem;
+  transition: all 0.3s;
+}
+
+.screen1 button:hover,
+.screen2 button:hover {
+  background-color: #6868ca;
+}
